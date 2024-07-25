@@ -1,0 +1,293 @@
+@import url(./reset.css);
+
+
+/* base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "Bruno Ace SC", sans-serif;
+}
+
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+/* 常用 */
+.d-flex {
+  display: flex;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-black {
+  color: #000000;
+}
+
+.color-sec-black {
+  color: #15161D;
+}
+
+.color-green {
+  color: #00FFA3;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+ .text-center {
+  text-align: center;
+ }
+
+ .font-128 {
+  font-size: 128px;
+ }
+
+ .font-64 {
+  font-size: 64px;;
+ }
+
+ .font-24 {
+  font-size: 24px;
+ }
+
+ .font-20 {
+  font-size: 20px;
+ }
+
+ .vertical-middle {
+  vertical-align: middle;
+ }
+
+
+/* 共通設定 */
+.introduction,.about,.project {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.link-dark {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.link-dark:hover {
+  color: #00FFA3;
+}
+
+.link-light {
+  text-decoration: none;
+  color: #000;
+}
+
+.link-light:hover {
+  background: #00FFA3;
+}
+
+/* header */
+.header {
+  background-color: #000000;
+  padding-top: 40px;
+}
+
+.header-nav .container {
+  justify-content: space-between;
+}
+
+.header-nav-item {
+  max-width: 21.5%;
+}
+
+/* banner */
+
+.banner .container {
+  min-height: 992px;
+  justify-content: flex-end;
+  align-items: center;
+  height: auto;
+}
+
+.banner-img {
+  margin-right: 24px;
+}
+
+.banner-content {
+  flex-direction: column;
+  width: 50%;
+}
+
+.banner-btn {
+  background-color: #FFFFFF;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+/* introduction */
+
+.introduction-card {
+  width: 41.66%;
+}
+.card-title {
+  margin-bottom: 36px;
+}
+
+.card-content {
+  margin-bottom: 32px;
+}
+
+.card-img + .card-img {
+  margin-left: 16px;
+}
+
+.introduction-images {
+  width: 58.33%;
+}
+
+.introduction-img + .introduction-img {
+  margin-left: 24px;
+}
+
+/* about */
+
+.about .container {
+    justify-content: space-between;
+}
+
+.about-card-wrap {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.about-card-list {
+
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.about-card {
+  width: 48.11%;
+  border: 1px solid #e3e3e3;
+  padding: 16px;
+}
+
+.about-content {
+  width: 40.5%;
+}
+
+.about-content-title {
+  margin-bottom: 36px;
+}
+
+/* contact */
+.contact {
+  background: linear-gradient(#050014 100%, #01021e 89%);
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.contact-text {
+  width: 51%;
+}
+
+.contact-text-title {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 64px;
+}
+
+.contact-arrow {
+  margin-left: 16px;
+}
+
+.contact-list {
+  width: 40.7%;
+  justify-content: flex-end;
+}
+
+.contact-item {
+  border-radius: 40px;
+}
+
+.contact-item + .contact-item {
+  margin-left: 20px;
+}
+
+.contact-item-img {
+  border-radius: 40px;
+}
+
+.contact-item-img:hover {
+  box-shadow: 0px 4px 4px #000000,0px 0px 16px #9094FF;
+}
+
+
+
+/* project */
+
+.project-title {
+  width: 58%;
+
+}
+
+.project-img-lg {
+  width: 32%;
+  margin-right: 24px;
+}
+
+.project-wrap {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 66%;
+}
+
+.project-card-img {
+  margin-right: 24px;
+}
+
+.project-content {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-btn {
+  background: #000000;
+  border-radius: 32px;
+  padding: 12px 24px;
+}
+
+
+.project-img-md+.project-img-md {
+  margin-left: 24px;
+}
+
+
+/*footer*/
+
+.footer {
+  background: #000000;
+}
+
+.footer-text {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
